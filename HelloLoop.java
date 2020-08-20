@@ -7,6 +7,8 @@ public class HelloLoop
    System.out.print(w + " ");
   }
   System.out.print("\n");
+  System.out.print("\n");
+  System.out.print("\n");
 
 
   int x = 0;
@@ -15,6 +17,8 @@ public class HelloLoop
    System.out.print(x + " ");
    x++;
   }
+  System.out.print("\n");
+  System.out.print("\n");
   System.out.print("\n");
 
 
@@ -26,13 +30,25 @@ public class HelloLoop
   }
   while(y < 5 );
   System.out.print("\n");
-
+  System.out.print("\n");
+  System.out.print("\n");
 
 
   String [] alphabet = {"H","e","l","l","o"," ","W","o","r","l","d"};
   for(String z : alphabet)
   {
    System.out.print(z);
+  }
+  System.out.print("\n");
+  System.out.print("\n");
+  System.out.print("\n");
+
+
+
+  int [] number = {1,2,3,4,5};
+  for(int n : number)
+  {
+   System.out.print(n);
   }
   System.out.print("\n");
  }
